@@ -1,0 +1,32 @@
+# Query: skin-light
+# ContextLines: 1
+
+7 results - 3 files
+
+app.py:
+  1: # app.py — skin-light core analysis (v3, 2025-10)
+  2  import os, json
+
+gui_main.py:
+   1: # gui_main.py — skinlite 최종 GUI
+   2  import os, sys, cv2
+
+  11  
+  12: APP_TITLE = "Skin-Light — 피부 분석 오픈소스 앱"
+  13  
+
+  29          # --- UI 구성 ---
+  30:         title = QLabel("✨ Skin-Light")
+  31          title.setAlignment(Qt.AlignCenter)
+
+gui.py:
+   1: # gui_main.py — skin-light main GUI (v3, 2025-10)
+   2  import os, sys
+
+  11  
+  12: APP_TITLE = "skin-light — 피부 분석 앱 (v3)"
+  13  
+
+  29  
+  30:         title = QLabel("✨ Skin-Light")
+  31          title.setAlignment(Qt.AlignCenter)
